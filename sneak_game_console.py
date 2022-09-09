@@ -11,6 +11,9 @@ class GameScreen:
         self.sneak=sneak
     def CreateScreen(self):
         screen=np.zeros(10,10)
+        print(screen)
+        
+    
 
 
 
@@ -27,11 +30,8 @@ def cls():
     os.system('cls')
     
 screen=GameScreen("deneme")
-print(screen.sneak)
 
-arr=[[5]]
-arr[0][2]='a'
-print(arr)
+
 
 """
 time.sleep(2)
